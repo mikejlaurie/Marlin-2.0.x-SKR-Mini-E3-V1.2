@@ -508,9 +508,9 @@
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
 // Ultimaker
-#define DEFAULT_Kp 26.58 //22.2 Mike
-#define DEFAULT_Ki 2.39  //1.08 Mike
-#define DEFAULT_Kd 74.05 //114 Mike
+#define DEFAULT_Kp 30.21 //22.2 Mike Stock 26.58
+#define DEFAULT_Ki 3.09  //1.08 Mike Stock 2.39
+#define DEFAULT_Kd 73.88 //114 Mike Stock 74.05
 
 // MakerGear
 //#define DEFAULT_Kp 7.0
