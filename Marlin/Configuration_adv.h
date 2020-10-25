@@ -1098,7 +1098,7 @@
    * LED Control Menu
    * Add LED Control to the LCD menu
    */
-//  #define LED_CONTROL_MENU
+#define LED_CONTROL_MENU
 #if ENABLED(LED_CONTROL_MENU)
 #define LED_COLOR_PRESETS // Enable the Preset Color menu option
 //#define NEO2_COLOR_PRESETS              // Enable a second NeoPixel Preset Color menu option
@@ -1604,7 +1604,7 @@
  *
  * Warning: Does not respect endstops!
  */
-//#define BABYSTEPPING
+#define BABYSTEPPING
 #if ENABLED(BABYSTEPPING)
 //#define INTEGRATED_BABYSTEPPING         // EXPERIMENTAL integration of babystepping into the Stepper ISR
 //#define BABYSTEP_WITHOUT_HOMING
@@ -1654,7 +1654,7 @@
 #define LIN_ADVANCE //mike
 #if ENABLED(LIN_ADVANCE)
 //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
-#define LIN_ADVANCE_K 0.22 // Unit: mm compression per 1mm/s extruder speed
+#define LIN_ADVANCE_K 0.15 // Unit: mm compression per 1mm/s extruder speed
 //#define LA_DEBUG            // If enabled, this will generate debug information output over USB.
 #define EXPERIMENTAL_SCURVE // Enable this option to permit S-Curve Acceleration
 #endif
